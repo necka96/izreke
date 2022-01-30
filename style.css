@@ -42,7 +42,7 @@ h1 {
 .quote {
   font-size: 20px;
   text-align: center;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 .author {
   display: flex;
