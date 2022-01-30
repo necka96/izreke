@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background: rgb(14, 141, 220);
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  background: #fff;
+  box-shadow: 0 0 25px black;
+  padding: 30px 30px 25px;
+  width: 95%;
+  max-width: 605px;
+}
+h1 {
+  text-align: center;
+}
+.quote-containr {
+  margin: 35px 0;
+}
+.quote-area {
+  display: flex;
+  justify-content: center;
+}
+.quote-area i {
+  font-size: 15px;
+}
+.quote-area i:first-child {
+  margin: 3px 10px 0 0;
+}
+.quote-area i:last-child {
+  margin: 0 0 3px 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.quote {
+  font-size: 20px;
+  text-align: center;
+  word-break: break-all;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.author span:first-child {
+  margin: -7px 5px 0 0;
+}
+.author span:last-child {
+  font-style: italic;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid black;
+  padding: 1rem 0;
+}
+.buttons ul {
+  display: flex;
+}
+.buttons li {
+  margin: 0 10px;
+  border: 2px solid rgb(14, 141, 220);
+  background: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: rgb(14, 141, 220);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.buttons .btn {
+  padding: 13px 22px;
+  background: rgb(14, 141, 220);
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+.btn.loading {
+  pointer-events: none;
+  opacity: 0.7;
+}
